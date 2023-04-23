@@ -75,3 +75,42 @@ p {
     color: #4B505A;
 }
 
+@media screen and (max-width: 375px){
+    header {
+        display:none;
+    }
+    
+    img {
+        width: 400px;
+        height: 270px;
+        position: absolute;
+        bottom: -10%;
+        left: -60px;
+    }
+
+    h1 {
+        width: 400px;
+        height: 60px;
+        display: block;
+        margin-left: -6%
+    }
+
+    p {
+       width: 400px;
+       height: 270px;
+       margin-top: 35%;
+       margin-left: -6%
+    }
+
+    .link-section {
+        position: absolute;
+        top: 374px;
+        right: 50px;
+    }
+    
+}
+    
+
+
+
+    
